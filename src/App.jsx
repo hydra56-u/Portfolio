@@ -496,7 +496,7 @@ export default function App() {
 
           <div className="pf-ft-divider"></div>
 
-          <div className="pf-ft-bottom">
+      <div className="pf-ft-bottom">
             <div className="pf-ft-nav">
               <a href="#home">Home</a>
               <a href="#skills">Skills</a>
@@ -510,4 +510,12 @@ export default function App() {
                 apexfast.ooguy.com
               </a>
             </div>
-            <span className="pf-ft-copy"></span>
+            <span className="pf-ft-copy">
+              © {new Date().getFullYear()} Ishan Thilina. Hosted on GitHub Pages.
+            </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
